@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import Markdown from 'react-markdown'
-import { MarkdownView } from './features/Markdown/MarkdownView'
+import { MarkdownView } from './features/markdown/MarkdownView'
 import { useSelector } from 'react-redux'
 import remarkGfm from 'remark-gfm'
 import './App.css'
