@@ -1,0 +1,71 @@
+#root {
+  max-width: 1280px; 
+  margin: 0 auto;
+  
+  text-align: center;
+}
+
+#editor {
+  width: 25rem;
+  height: 25rem;
+  color: rgb(105, 75, 2);
+  border-radius: 8px;
+  padding: 10px;
+}
+
+h1 {
+  color: white;
+}
+
+#preview {
+  width: 40rem;
+  height: 40rem;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: white;
+  color: rgb(105, 75, 2);
+  text-align: left;
+  padding: 10px;
+  padding-left: 20px;
+  border-radius: 8px;
+  overflow-y: scroll;
+
+
+}
+
+#preview h1 {
+  text-align: center;
+  color: rgb(105, 75, 2) ;
+}
+
+#preview > thead > tr {
+  border-bottom: 2px solid black;
+}
+
+#preview tr, th, td {
+  border-right: 2px solid black;
+  padding: 10px;
+  gap: 0;
+}
+
+#preview tr, td {
+  margin: 10px;
+}
+
+#preview img {
+  width: 20rem;
+  margin: 20px auto; 
+  
+}
+
+code, pre {
+  background-color: burlywood;
+  padding: 3px;
+  border-radius: 8px;
+}
+
+blockquote {
+  border-left: 10px solid burlywood ;
+  background-color: antiquewhite;
+  padding: 10px;
+}
